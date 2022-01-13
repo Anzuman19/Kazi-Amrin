@@ -1,0 +1,157 @@
+body {
+    margin: 0 auto;
+  }
+  
+  .icon-bar {
+    width: 90px;
+    background-color: #555;
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #04aa6d;
+  }
+  .first-section {
+    display: flex;
+    max-width: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 20px;
+    height: 700px;
+  }
+  .intro {
+    height: 600px;
+    text-align: center;
+    margin: 40px 20px;
+    padding: 20 20;
+  }
+  .image {
+    height: 500px;
+    border-radius: 5px;
+    margin-right: 70px;
+    background-repeat: no-repeat;
+    background-image: url(images/shape-9.png);
+    background-position: 250px;
+    background-size: 650px;
+  }
+  .shape {
+    width: 150px;
+   
+  }
+  
+  #myDIV #suin{
+   box-shadow: 20px 20px 50px grey;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 500px;
+    width: 55%;
+    margin-left: 20%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img1 {
+    background-image: url("images/family.png");
+  }
+  .img2 {
+    background-image: url("images/kawshik.jpg");
+  }
+  .img3 {
+    background-image: url("images/uncle.png");
+  }
+  .img4 {
+    background-image: url("images/khalamoni.png");
+  }
+  .img2 .img3 .img4 {
+    height: 500px;
+    width: 350px;
+    margin-top: 40px;
+    padding-top: 40px;
+  }
+  .img1 {
+    height: 1000px;
+    margin-top: 30px;
+    padding: 10px;
+  }
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border: 10px solid #f1f1f1;
+    position: fixed   ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  .second-section {
+    height: 500px;
+    max-width: 90%;
+    margin-top: 40px;
+    position:relative;
+  }
+  .third-section{
+    height: 500px;
+    max-width: 90%;
+    margin-top: 40px;
+    display: flex;
+    
+  }
+  .Anzu{
+    background-image: url(images/sun.png);
+    background-position: 100px;
+    background-repeat: no-repeat;
+  }
+  .sush{
+    margin-right: 40px;
+    
+  
+  }
+  #Sush{
+    border-radius: 20px;
+  }
+  p{
+    font-family: 'IM Fell English SC', serif;
+    font-size: 35px;
+    
+  }
+  h1{
+    font-family: 'Tourney', cursive;
+  font-size: 40px;
+  color: rgb(44, 224, 206);
+  text-shadow: 5px;
+  }
+  .fourth-section{
+    background-image: url(images/shape-7.png);
+    background-repeat: no-repeat;
+    background-size:580px;
+    display: flex;
+    background-position: 1250px;
+    
+  }
